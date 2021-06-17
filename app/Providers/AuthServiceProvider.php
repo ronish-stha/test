@@ -25,6 +25,16 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+        Gate::define('isVerifiedSeller', function($user) {
+            return $user->verified;
+        });
+
+        Gate::define('isSeller', function($user, $object) {
+           return $user->id == $object->user->id;
+        });
+
+        Gate::define('isCustomer', function ($user, $object) {
+            return $user->id == $object->user->id;
+        });
     }
 }

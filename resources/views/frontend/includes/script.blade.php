@@ -1,0 +1,12 @@
+<script src="{{URL::asset('frontend/js/vendor/jquery-1.12.0.min.js')}}"></script>
+<script src="{{URL::asset('frontend/js/popper.js')}}"></script>
+<script src="{{URL::asset('frontend/js/bootstrap.min.js')}}"></script>
+<script src="{{URL::asset('frontend/js/jquery.magnific-popup.min.js')}}"></script>
+<script src="{{URL::asset('frontend/js/isotope.pkgd.min.js')}}"></script>
+<script src="{{URL::asset('frontend/js/imagesloaded.pkgd.min.js')}}"></script>
+<script src="{{URL::asset('frontend/js/jquery.counterup.min.js')}}"></script>
+<script src="{{URL::asset('frontend/js/waypoints.min.js')}}"></script>
+<script src="{{URL::asset('frontend/js/ajax-mail.js')}}"></script>
+<script src="{{URL::asset('frontend/js/owl.carousel.min.js')}}"></script>
+<script src="{{URL::asset('frontend/js/plugins.js')}}"></script>
+<script src="{{URL::asset('frontend/js/main.js')}}"></script>

@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'http://localhost:2000'),
 
     'asset_url' => env('ASSET_URL', null),
 
@@ -227,6 +227,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        // Custom Helper
+        'Helper' => App\Services\Helper::class,
     ],
 
 ];

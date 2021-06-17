@@ -1,0 +1,22 @@
+[03-Dec-2020 08:57:44 UTC] PHP Fatal error:  Interface 'App\Models\categoryInterface' not found in /home/nepalbon/public_html/liquor.nepalbonjoy.com/app/Models/Category.php on line 7
+[03-Dec-2020 08:57:44 UTC] PHP Stack trace:
+[03-Dec-2020 08:57:44 UTC] PHP   1. {main}() /home/nepalbon/public_html/liquor.nepalbonjoy.com/public/index.php:0
+[03-Dec-2020 08:57:44 UTC] PHP   2. App\Http\Kernel->handle() /home/nepalbon/public_html/liquor.nepalbonjoy.com/public/index.php:52
+[03-Dec-2020 08:57:44 UTC] PHP   3. App\Http\Kernel->sendRequestThroughRouter() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:110
+[03-Dec-2020 08:57:44 UTC] PHP   4. App\Http\Kernel->bootstrap() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:136
+[03-Dec-2020 08:57:44 UTC] PHP   5. Illuminate\Foundation\Application->bootstrapWith() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:152
+[03-Dec-2020 08:57:44 UTC] PHP   6. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:230
+[03-Dec-2020 08:57:44 UTC] PHP   7. Illuminate\Foundation\Application->boot() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+[03-Dec-2020 08:57:44 UTC] PHP   8. array_walk() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:851
+[03-Dec-2020 08:57:44 UTC] PHP   9. Illuminate\Foundation\Application->Illuminate\Foundation\{closure:/home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:849-851}() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:851
+[03-Dec-2020 08:57:44 UTC] PHP  10. Illuminate\Foundation\Application->bootProvider() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:850
+[03-Dec-2020 08:57:44 UTC] PHP  11. Illuminate\Foundation\Application->call() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:869
+[03-Dec-2020 08:57:44 UTC] PHP  12. Illuminate\Container\BoundMethod::call() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:610
+[03-Dec-2020 08:57:44 UTC] PHP  13. Illuminate\Container\BoundMethod::callBoundMethod() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:37
+[03-Dec-2020 08:57:44 UTC] PHP  14. Illuminate\Container\Util::unwrapIfClosure() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:93
+[03-Dec-2020 08:57:44 UTC] PHP  15. Illuminate\Container\BoundMethod::Illuminate\Container\{closure:/home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:35-37}() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Container/Util.php:40
+[03-Dec-2020 08:57:44 UTC] PHP  16. App\Providers\AppServiceProvider->boot() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php:36
+[03-Dec-2020 08:57:44 UTC] PHP  17. spl_autoload_call() /home/nepalbon/public_html/liquor.nepalbonjoy.com/app/Providers/AppServiceProvider.php:43
+[03-Dec-2020 08:57:44 UTC] PHP  18. Composer\Autoload\ClassLoader->loadClass() /home/nepalbon/public_html/liquor.nepalbonjoy.com/app/Providers/AppServiceProvider.php:43
+[03-Dec-2020 08:57:44 UTC] PHP  19. Composer\Autoload\includeFile() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/composer/ClassLoader.php:322
+[03-Dec-2020 08:57:44 UTC] PHP  20. include() /home/nepalbon/public_html/liquor.nepalbonjoy.com/vendor/composer/ClassLoader.php:444

@@ -1,0 +1,240 @@
+.clippath {
+    background-color: #e12c2c;
+    clip-path: polygon(0 10%, 0 100%, 100% 100%);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    min-height: 150px;
+}
+
+.clippath-reverse {
+    background-color: #e12c2c;
+    clip-path: polygon(100% 10%, 0 100%, 100% 100%);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    min-height: 150px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #e12c2c;
+    background-color: #fff;
+    border-bottom: 5px solid #e12c2c;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.vendor-detail {
+    border-bottom: 1px solid #dddddd;
+    padding-left: 20px
+}
+
+.bottle-type {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: auto;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.vendor-list li {
+    float: left;
+    margin-right: 5px;
+    margin-top: 25px;
+}
+
+.vendor-list li span {
+    font-size: 10px;
+}
+
+.logindiv {
+    width: 80%;
+}
+
+.filter ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.filter ul li {
+    float: left;
+    padding: 5px 20px;
+    background: #dddddd;
+    margin-right: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.filter ul li a {
+    display: block;
+    color: #11111190;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.view-more {
+    right: 0;
+    position: absolute;
+    margin-right: 60px;
+    color: #e12c2c;
+}
+
+.dash-title-text {
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.category-menu-dropdown.shop-menu {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.category-dropdown-style {
+    margin-right: 50px;
+}
+
+nav>ul>li:hover {
+    background: white;
+}
+
+nav ul.menu-area {
+    padding: 40px 40px 0 40px;
+    background: #ffffff;
+    text-align: left;
+    border-top: 5px solid gray;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.dropdown {
+    position: static !important;
+}
+
+.dropdown-menu {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    margin-top: 0px !important;
+    width: 100% !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: red;
+    border-bottom: 2px solid #e12c2c;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #e12c2c;
+}
+
+.inner-menu {
+    padding-top: 30px;
+    margin-left: 5%;
+    padding-bottom: 30px;
+}
+
+.inner-menu ul {
+    display: inline-block;
+    width: 20%;
+    /* position: absolute; */
+}
+
+.inner-menu ul li {
+    padding-top: 10px;
+}
+
+.inner-menu ul li a {
+    font-size: 14px;
+}
+
+.inner-menu h6 {
+    border-bottom: 1px solid #e12c2c30;
+    padding-bottom: 10px;
+    width: 75%;
+    font-weight: bold;
+    color: #e12c2c;
+}
+
+.inner-menu span {
+    font-size: 11px;
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+.navbar-nav {
+    margin-left: 30px;
+}
+
+.dropdown-menu {
+    box-shadow: 0 .7rem 1rem rgba(0, 0, 0, .15) !important;
+    border: none;
+}
+
+.navbar-nav li {
+    padding-right: 30px;
+}
+
+.header-cart {
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+}
+
+.ml-auto,
+.mx-auto {
+    margin-left: inherit !important;
+}
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+.product-fruit-wrapper:hover {
+    border: 1px solid #22222240;
+    border-radius: 10px
+}
+
+.product-rating-5 i {
+    color: #ffbf00;
+}
+
+.filter ul li:hover {
+    background-color: #e12c2c;
+}
+
+.filter ul li:hover a {
+    background-color: #e12c2c;
+    color: white;
+}
+
+.quantity-selector {
+    padding-left: 20px;
+}
+
+.product-margin {
+    margin-top: 50px;
+}
