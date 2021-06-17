@@ -60,7 +60,7 @@
             @foreach ($subCategories as $subCategory)
                 @if (count($subCategory->products) != 0)
                     <p class="dash-title"><span class="dash-title-text">{{ $subCategory->title }}</span></p>
-                    <a href="{{ route('category.product', $subCategory->id) }}" class=" view-more">View More</a>
+                    <a href="{{ route('category.product', $subCategory->id) }}" class=" view-more">More</a>
                     <div class="row">
                         @foreach ($subCategory->products as $product)
                             <div class="col-lg-6 col-md-6 col-xl-3 product-margin">
